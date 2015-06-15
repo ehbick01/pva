@@ -8,6 +8,8 @@ library(RCurl)
 
 # https://jeffersonpva.ky.gov/property-search/property-listings/?psfldLow=0&psfldHigh=5000000&psfldFrom=01%2F01%2F2010&psfldTo=06%2F11%2F2015&psfldNeighborhood=&psfldPtype=&searchType=RangeSearch&psfldStories=&psfldBathrooms=&psfldResSqFeetLow=&psfldResSqFeetHigh=&psfldResYearLow=&psfldResYearHigh=&psfldWall=&psfldStreet=&psfldParcel=&psfldComOwner=&psfldComSqFeetLow=&psfldComSqFeetHigh=&psfldComYearLow=&psfldComYearHigh=&psfldLandLow=&psfldLandHigh=&psfldPropClass=&psfldPropUse=&propertySearchFormButton=Search#results
 
+# Random change
+
 # Set cainfo (for Windows)
 options(RCurlOptions = list(cainfo = system.file('CurlSSL', 'cacert.pem', package = 'RCurl')))
 
